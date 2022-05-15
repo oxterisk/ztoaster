@@ -16,6 +16,7 @@
 
 .ztoaster {
     position: fixed;
+    font-family: sans-serif;
 }
 
 .ztoaster-top-full {
