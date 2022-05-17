@@ -140,6 +140,8 @@ class zToaster {
 					return "&#8505;";
 				case 'warning' :
 					return "&#9888;";
+				default :
+					return '&#10004;';
 
 			}
 

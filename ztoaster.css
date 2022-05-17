@@ -12,11 +12,14 @@
     --warningTextColor: #fff;
     --infoBackground: #0288D1;
     --infoTextColor: #fff;
+    --darkBackground: #424242;
+    --darkTextColor: #fff;
 }
 
 .ztoaster {
     position: fixed;
     font-family: sans-serif;
+    line-height: 1.2;
 }
 
 .ztoaster-top-full {
@@ -116,6 +119,11 @@
 .ztoast-warning {
     background-color: var(--warningBackground);
     color: var(--warningTextColor);
+}
+
+.ztoast-dark {
+    background-color: var(--darkBackground);
+    color: var(--darkTextColor);
 }
 
 .ztoast-icon {

@@ -35,7 +35,7 @@ ztoast(content, options);
 
 Key | Description | Values
 --- | --- | --- |
-type | Notification style. | success, info, warning, error<br>Default: success
+type | Notification style. | success, info, warning, error, dark<br>Default: success
 title | Notification title. |
 position | Position relative to the viewport. | top-right, top-left, top-center, top-full, bottom-right, bottom-left, bottom-center,  bottom-full<br>Default: top-right
 width | Width of the toast. | Any accepted size format.<br>Default: 350px
@@ -56,6 +56,7 @@ ztoast("Here we go!", {type:"success"});
 ztoast("Here we go!", {type:"info"});
 ztoast("Here we go!", {type:"warning"});
 ztoast("Here we go!", {type:"error"});
+ztoast("Here we go!", {type:"dark"});
 ```
 
 With title
