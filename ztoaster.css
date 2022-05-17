@@ -1,4 +1,4 @@
-:root {
+.ztoaster {
     --toasterMargin: 12px;
     --toastWidth: 350px;
     --toastOpacity: .9;
