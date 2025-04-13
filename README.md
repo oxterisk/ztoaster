@@ -2,8 +2,6 @@ zToaster is a vanilla javascript library that provides an easy way to show toast
 
 It's lightweight and easily customizable.
 
-[Project web, documentation & support](https://www.oxterisk.com/projects/ztoaster/)
-
 ## Basic usage
 
 Place the stylesheet link into the head before all other stylesheets to load the CSS.
@@ -86,7 +84,4 @@ ztoast(content, {
     icon: "&#9850;",
     showClose: false
 });
-
 ```
-
-[Demo and examples](https://resources.oxterisk.com/ztoaster/)
