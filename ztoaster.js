@@ -1,5 +1,5 @@
 /**
- * zToaster v1.0
+ * zToaster v1.0.1
  * oxterisk@protonmail.com
  */
 
@@ -56,12 +56,12 @@ class zToaster {
 	createToast() {
 
 		const scope = this;
-		const idToast = Math.random().toString(12).substr(2);
+		const idToast = Math.random().toString(12).substring(2);
 
 		const toast = document.createElement("div");
 		toast.setAttribute("id", `ztoast-${idToast}`);
 		toast.className = "ztoast";
-		toast.classList.add("ztoast-" + this.type);
+		toast.classList.add(`ztoast-${this.type}`);
 		if (this.textColor != '') { toast.style.color = this.textColor; }
 		if (this.backgroundColor != '') { toast.style.backgroundColor = this.backgroundColor; }
 		if (this.width != '') { toast.style.width = this.width; }
